@@ -1,0 +1,378 @@
+
+
+.fs52 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+.fs366 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    
+    color: #FFFFFF
+}
+
+.fs-200 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tuman {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #222124;
+mix-blend-mode: normal;
+opacity: 0.7;
+}
+
+.game {
+    font-size: 14px;
+line-height: 24px;
+color: #222124 !important;
+mix-blend-mode: normal;
+
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-9 {
+    background: url("../img/banner.png");
+    width: 100%;
+   height: 501px;
+   position: relative;
+   .banner{
+        .sariq {
+            position: absolute;
+            top: 95px;
+          right: 0;
+        }
+        .telefon {
+            position: absolute;
+            top: -135px;
+            right: 0;
+        }
+        .sariq2 {
+         display: none;
+         position: absolute;
+         top: -135px;
+         right: 0;
+        }
+   }
+   .container {
+       .bt {
+           display: none;
+       }
+       .btt {
+        display: none;
+    }
+   }
+}
+
+
+
+
+
+
+.section-10{
+    z-index: -1;
+    .raqam {
+        font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 33px;
+color: #222124;
+    }
+    footer{
+        ul{
+            li{
+                margin-top: 2px;
+                margin-bottom: 2px;
+                a{
+                  
+                    font-size: 14px;
+                    line-height: 34px;                    
+                    color: #222124;
+                    transition: 0.3s;
+                  
+                }
+            }
+        }
+      .sel {
+          display: none;
+      }
+      .selll {
+        display: none;
+    }
+    }
+}
+
+
+
+.section-22 {
+    .container {
+        .row {
+            mix-blend-mode: normal;
+          
+             border-top: 1px solid #9797974f;
+            
+             .dota {
+                 display: none;
+             }
+
+           .iconn {
+            margin-right: 100px;
+            
+               img {
+                   padding: 0 10px;
+            
+               }
+           }
+        }
+    }
+}
+
+
+@media (max-width: 567px){
+   
+    .section-9 {
+        height: 750px;
+        .banner {
+           align-items: center;
+            .sariq {
+                display: none;
+            }
+            .sariq2 {
+                display: block;
+                margin: 0 auto;
+               width: 80%;
+                height: 99px;
+
+                top: 80px;
+                left: 0;
+              }
+            .telefon {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                height: 334px;
+                padding: 0 54px;
+                top: -68px;
+                left: 0;
+            }
+        }
+        .container {
+            .row {
+                .prosta {
+                    .fs52{
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 36px;
+                        line-height: 44px;
+                        text-align: center;            
+                        color: #FFFFFF;
+                        margin-top: 200px;
+                    }
+                    .qwe {
+                        display: none;
+                    }
+                    .bt {
+                        display: block;
+                        margin-top: 60px;
+                        width: 100%;
+                        height: 70px;
+                        border: 1px solid rgba(255, 255, 255, 0.292941);
+                        box-sizing: border-box;
+                        backdrop-filter: blur(27.1828px);                                  
+                        border-radius: 46px;
+                        img {
+                            display: block;
+                             margin: auto;
+                             padding: 10px 0;
+                        }
+                    }
+
+
+                    .btt {
+                        display: block;
+                        margin-top: 30px;
+                        width: 100%;
+                        height: 70px;
+                        border: 1px solid rgba(255, 255, 255, 0.292941);
+                        box-sizing: border-box;
+                        backdrop-filter: blur(27.1828px);                                             
+                        border-radius: 46px;
+                        img {
+                            display: block;
+                             margin: auto;
+                             padding: 10px 0;
+                        }
+                    }
+                  
+                  
+                }
+            }
+        }
+    }
+
+    .section-10{
+        margin-top: 20px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+       footer {
+        .container {
+            .row {
+                .asosiy {
+                   .center {
+                       .qweqwwqweew{
+                           display: none;
+                       }
+                       .sel {
+                        width: 285px;
+                        display: block;
+                           select {
+                            width: 100%;
+                            padding: 15px 0 15px 114px;
+                            background: #F1F1F1;
+border-radius: 27px;
+border: none;
+                           }
+                       }
+                   }
+                }
+                .qoshimcha {
+                  .qosh {
+                     display: none;
+                  }
+                }
+
+                .bizz {
+                 .biz{
+                  align-items: center;
+                  text-align: center;
+                  .fs-200 {
+                      display: none;
+                  }
+                 }
+                }
+
+                .selll {
+                    width: 285px;
+                    display: block;
+                       select {
+                        width: 100%;
+                        padding: 15px 0 15px 114px;
+                        background: #F1F1F1;
+                        border-radius: 27px;
+                        border: none;
+                       }
+                   }
+            }
+            .col-sm-6{
+                display: flex !important;
+                justify-content: center !important;
+                margin-top: 20px;
+            }
+        }
+       }
+            
+        
+    }
+
+
+    .section-22 {
+        .container {
+            .row {
+                mix-blend-mode: normal;         
+                 border-top: 1px solid #9797974f;
+               
+               .iconn {
+               margin: 0 auto;
+                
+                   img {
+                       padding: 0 10px;
+                
+                   }
+               }
+    
+               .game {
+                   display: none;
+               }
+    
+               .dota {
+                   display: block;
+                   text-align: center;
+                   margin-top: 10px;
+               }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+   
+    
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

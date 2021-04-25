@@ -1,0 +1,254 @@
+.fs52 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+
+.fs366 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.fs-200 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tuman {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222124;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.game {
+  font-size: 14px;
+  line-height: 24px;
+  color: #222124 !important;
+  mix-blend-mode: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-9 {
+  background: url("../img/banner.png");
+  width: 100%;
+  height: 501px;
+  position: relative;
+}
+.section-9 .banner .sariq {
+  position: absolute;
+  top: 95px;
+  right: 0;
+}
+.section-9 .banner .telefon {
+  position: absolute;
+  top: -135px;
+  right: 0;
+}
+.section-9 .banner .sariq2 {
+  display: none;
+  position: absolute;
+  top: -135px;
+  right: 0;
+}
+.section-9 .container .bt {
+  display: none;
+}
+.section-9 .container .btt {
+  display: none;
+}
+
+.section-10 {
+  z-index: -1;
+}
+.section-10 .raqam {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 33px;
+  color: #222124;
+}
+.section-10 footer ul li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.section-10 footer ul li a {
+  font-size: 14px;
+  line-height: 34px;
+  color: #222124;
+  transition: 0.3s;
+}
+.section-10 footer .sel {
+  display: none;
+}
+.section-10 footer .selll {
+  display: none;
+}
+
+.section-22 .container .row {
+  mix-blend-mode: normal;
+  border-top: 1px solid #9797974f;
+}
+.section-22 .container .row .dota {
+  display: none;
+}
+.section-22 .container .row .iconn {
+  margin-right: 100px;
+}
+.section-22 .container .row .iconn img {
+  padding: 0 10px;
+}
+
+@media (max-width: 567px) {
+  .section-9 {
+    height: 750px;
+  }
+  .section-9 .banner {
+    align-items: center;
+  }
+  .section-9 .banner .sariq {
+    display: none;
+  }
+  .section-9 .banner .sariq2 {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 99px;
+    top: 80px;
+    left: 0;
+  }
+  .section-9 .banner .telefon {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 334px;
+    padding: 0 54px;
+    top: -68px;
+    left: 0;
+  }
+  .section-9 .container .row .prosta .fs52 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 200px;
+  }
+  .section-9 .container .row .prosta .qwe {
+    display: none;
+  }
+  .section-9 .container .row .prosta .bt {
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.292941);
+    box-sizing: border-box;
+    backdrop-filter: blur(27.1828px);
+    border-radius: 46px;
+  }
+  .section-9 .container .row .prosta .bt img {
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+  }
+  .section-9 .container .row .prosta .btt {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.292941);
+    box-sizing: border-box;
+    backdrop-filter: blur(27.1828px);
+    border-radius: 46px;
+  }
+  .section-9 .container .row .prosta .btt img {
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+  }
+
+  .section-10 {
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .section-10 footer .container .row .asosiy .center .qweqwwqweew {
+    display: none;
+  }
+  .section-10 footer .container .row .asosiy .center .sel {
+    width: 285px;
+    display: block;
+  }
+  .section-10 footer .container .row .asosiy .center .sel select {
+    width: 100%;
+    padding: 15px 0 15px 114px;
+    background: #F1F1F1;
+    border-radius: 27px;
+    border: none;
+  }
+  .section-10 footer .container .row .qoshimcha .qosh {
+    display: none;
+  }
+  .section-10 footer .container .row .bizz .biz {
+    align-items: center;
+    text-align: center;
+  }
+  .section-10 footer .container .row .bizz .biz .fs-200 {
+    display: none;
+  }
+  .section-10 footer .container .row .selll {
+    width: 285px;
+    display: block;
+  }
+  .section-10 footer .container .row .selll select {
+    width: 100%;
+    padding: 15px 0 15px 114px;
+    background: #F1F1F1;
+    border-radius: 27px;
+    border: none;
+  }
+  .section-10 footer .container .col-sm-6 {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 20px;
+  }
+
+  .section-22 .container .row {
+    mix-blend-mode: normal;
+    border-top: 1px solid #9797974f;
+  }
+  .section-22 .container .row .iconn {
+    margin: 0 auto;
+  }
+  .section-22 .container .row .iconn img {
+    padding: 0 10px;
+  }
+  .section-22 .container .row .game {
+    display: none;
+  }
+  .section-22 .container .row .dota {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
